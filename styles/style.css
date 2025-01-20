@@ -4,3 +4,105 @@
   font-weight: 700;
   font-style: normal;
 }
+.raleway-font{
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* Header related styles */
+.logo{
+  display: flex;
+  align-items: center;
+}
+header div h3{
+  font-size: 2rem;
+  font-weight: 700;
+}
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 145px;
+}
+.navbar-title{
+  margin-left: 8px;
+}
+.list-items{
+  display: flex;
+  justify-content: center;
+  padding: 10px 165px;
+}
+.margin{
+  margin-left: 28px;
+  margin-right: 28px;
+}
+header div nav ul li {
+  list-style-type: none;
+}
+#home{
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #FEA301;
+}
+#about{
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #01ACFD;
+}
+#facilities{
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #05D4DF;
+}
+#admission{
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #5D58EF;
+}
+.btn-top{
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #ffffff;
+  padding: 15px 60px;
+  background-color: #FEA301;
+  border-radius: 12px;
+  border: none;
+}
+/* main section related styles */
+.hero-kids{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 127.5px;
+}
+.hero-container{
+  max-width: 1158.61px;
+  margin: 125px 50px 125px 0;
+}
+.hero-title{
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.hero-description{
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin: 24px auto;
+}
+.btn-primary{
+  background-color: #111111;
+  color: #ffffff;
+  padding: 15px 47px;
+  border-radius: 12px;
+  border: none;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+#text-1{
+  color: #FEA301;
+}
+#text-2{
+  color: #01ACFD;
+}
