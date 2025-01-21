@@ -10,6 +10,9 @@
   font-weight: 900;
   font-style: normal;
 }
+body{
+  background-color: #f7f7f7;
+}
 
 /* Header related styles */
 .logo{
@@ -105,4 +108,86 @@ header div nav ul li {
 }
 #text-2{
   color: #01ACFD;
+}
+/* curriculum section related styles */
+.cards{
+  background-image: url(../assets/bg.png);
+} 
+.card-heading{
+  font-size: 2.89rem;
+  font-weight: 700;
+  text-align: center;
+}
+.card-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  align-items: center;
+  margin: 80px 140px;
+}
+.curriculum-card{
+  justify-items: center;
+  justify-content: space-around;
+  padding: 53.64px 40.67px 53.76px 40.88px;
+}
+.card-title{
+  font-weight: 700;
+  font-size: 1.5325rem;
+}
+.card-description{
+  font-weight: 400;
+  color: rgba(128, 128, 128, 1);
+  font-size: 0.94rem;
+  text-align: center;
+  margin-top: 34px;
+  margin-bottom: 34px;
+}
+.card-1{
+  border: 2px solid #DEF5FF;
+  background-image: linear-gradient(180deg, rgb(222, 245, 255), #ffffff);
+  border-radius: 18px;
+  box-shadow: 0 0 28px rgba(0, 0, 0, 0.05)
+}
+.card-2{
+  border: 2px solid #FFF4DC;
+  background-image: linear-gradient(180deg, rgba(255, 244, 220, 1), #ffffff);
+  border-radius: 18px;
+  box-shadow: 0 0 28px rgba(0, 0, 0, 0.05)
+}
+.card-3{
+  border: 2px solid #F2E8FF;
+  background-image: linear-gradient(180deg, rgba(238, 225, 255, 1), #ffffff);
+  border-radius: 18px;
+  box-shadow: 0 0 28px rgba(0, 0, 0, 0.05)
+}
+#more-1{
+  text-decoration: none;
+  color: #64C8FF;
+}
+#more-2{
+  text-decoration: none;
+  color: #F0AA00;
+}
+#more-3{
+  text-decoration: none;
+  color: #8700FF;
+}
+#btn-container{
+  display: flex;
+  justify-content: center;
+  gap: 10px ;
+  margin: 80px 655px 60px 655px;
+}
+.btn-2:hover{
+  background-color: #976002;
+}
+.arrows{
+  background-color: #FEA301;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  padding: 20px 25px 20px 25px;
+  color: #ffffff;
+  font-size: larger;
+  font-weight: bolder;
 }
