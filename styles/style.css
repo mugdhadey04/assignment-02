@@ -306,13 +306,21 @@ header div nav ul li {
   margin-top: -30px;
   margin-left: 40px;
   margin-bottom: 0px;
-
+  transform: translateX(-50);
 }
 
 .img-container {
   border-radius: 16px 16px 0px 0px;
   margin-bottom: 0px;
   max-width: 100%;
+}
+.max{
+  /* max-width: 100%; */
+}
+.Img-container{
+  border-radius: 16px 16px 0px 0px;
+  margin-bottom: 0px;
+  max-width: 380px;
 }
 
 #november-2 {
@@ -327,6 +335,7 @@ header div nav ul li {
   margin-top: -25px;
   margin-left: 39px;
   margin-bottom: 0px;
+  transform: translateX(-50);
 }
 
 #november-3 {
@@ -341,6 +350,7 @@ header div nav ul li {
   margin-top: -25px;
   margin-left: 39px;
   margin-bottom: 0px;
+  transform: translateX(-50);
 }
 
 #september {
@@ -355,6 +365,7 @@ header div nav ul li {
   margin-top: -25px;
   margin-left: 39px;
   margin-bottom: 0px;
+  transform: translateX(-50);
 }
 
 #july {
@@ -369,6 +380,7 @@ header div nav ul li {
   margin-top: -25px;
   margin-left: 39px;
   margin-bottom: 0px;
+  transform: translateX(-50);
 }
 
 #november-2 {
@@ -379,10 +391,11 @@ header div nav ul li {
   color: #ffffff;
   border: none;
   border-radius: 47.93px;
-  /* position: absolute; */
+  position: absolute;
   margin-top: -25px;
   margin-left: 39px;
   margin-bottom: 0px;
+  transform: translateX(-50);
 }
 
 #view {
@@ -393,7 +406,8 @@ header div nav ul li {
 
 .stories {
   background-color: #ffffff;
-  max-width: 73.30%;
+  max-width: 236px;
+  margin-right: 0px;
   margin-top: -5px;
   padding: 33px 35px 28px 20px;
   border-radius: 0px 0px 16px 16px;
@@ -405,6 +419,7 @@ header div nav ul li {
   font-weight: bold;
   margin-top: 5px;
   margin-right: 0px;
+  max-width: 100%;
 }
 
 /* footer related styles */
@@ -573,8 +588,5 @@ footer div ul li {
   #footer-container{
     flex-direction: column;
     padding: 20px;
-  }
-  .size{
-    font-size: 9px;
   }
 }
